@@ -1,0 +1,32 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Arial', sans-serif;
+
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Base Styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-stack;
+    color: $primary-color;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+// Example Usage
+.container {
+    @include flex-center;
+    height: 100vh;
+    background-color: $secondary-color;
+}
