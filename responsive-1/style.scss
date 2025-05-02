@@ -28,6 +28,7 @@ body {
 .container {
     @include flex-center;
     height: 100vh;
+    background-color: $primary-color;
     background-color: $secondary-color;
     color: white;
 }
