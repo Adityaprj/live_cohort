@@ -20,6 +20,7 @@ $font-stack: 'Arial, sans-serif';
 body {
     font-family: $font-stack;
     color: $primary-color;
+    background-color: $secondary-color;
     background-color: #f4f4f4;
     line-height: 1.6;
 }
@@ -30,5 +31,6 @@ body {
     height: 100vh;
     background-color: $primary-color;
     background-color: $secondary-color;
+
     color: white;
 }
