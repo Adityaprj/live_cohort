@@ -7,6 +7,8 @@ $font-stack: 'Arial, sans-serif';
 @mixin flex-center {
     display: flex;
     justify-content: center;
+    keyframes: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
     align-items: center;
 }
 
